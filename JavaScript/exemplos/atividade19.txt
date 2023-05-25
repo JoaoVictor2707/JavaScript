@@ -1,0 +1,35 @@
+A)mensagem="ola mundo"
+'ola mundo'
+console.log("Olá, mundo!");
+VM983:1 Olá, mundo!
+
+B)nome="João Victor"
+'João Victor'
+console.log("nome");
+VM1066:1 nome
+
+C)idade="18"
+'18'
+console.log(idade);
+VM1175:1 18
+
+
+y=30
+30     AQUI EU TAVA COLOCANDO VALORES NO X E Y PARA PODER FAZER AS OUTRAS
+x=10
+10
+
+D)x+y
+40
+
+E)y-x
+20
+
+F)x*y
+300
+
+G)y/x
+3
+
+H)14%3
+2

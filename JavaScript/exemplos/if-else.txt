@@ -1,0 +1,46 @@
+form_ok=true
+true
+if(form_ok)console.log("Dados serão enviados!");else alert("preencimento incorreto")
+  Dados serão enviados!
+ 
+ ------------------------------------------------------------------------------------------
+ 
+form_ok=false
+false
+if(form_ok)console.log("Dados serão enviados!");else alert("preencimento incorreto")
+  Preencimento incorreto
+  
+  
+ -------------------------------------------------------------------------------------------
+  
+x=10
+10
+y=20
+20
+if(x>5&&y>15){x++;y++;}else{x--,y--}
+20
+x
+11
+y
+21
+
+
+----------------------------------------------------------------------------------------------
+
+peso=8
+8
+if(peso<=10){console.log("pode embarcar")}else if(peso <=23){console.log("deve despachar")} else{console.log("vai pagar por excesso")}
+ pode embarcar
+ 
+peso=12
+12
+if(peso<=10){console.log("pode embarcar")}else if(peso <=23){console.log("deve despachar")} else{console.log("vai pagar por excesso")}
+  deve despachar
+  
+peso=25
+25
+if(peso<=10){console.log("pode embarcar")}else if(peso <=23){console.log("deve despachar")} else{console.log("vai pagar por excesso")}
+  vai pagar por excesso
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------

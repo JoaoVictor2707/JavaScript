@@ -1,0 +1,48 @@
+<!DOCTYPE htm> <!-- Define o tipo de documento como HTML.-->
+<html><!-- Início do elemento HTML.-->
+    <head><!-- Início da seção de cabeçalho do documento.-->
+        <link rel="stylesheet" type="text/css" href="style.css"/><!-- Adiciona um link para o arquivo de estilo externo chamado "style.css".-->
+		<script src="javascript.js"></script><!-- Adiciona um link para o arquivo de script externo chamado "javascript.js".-->
+    </head><!-- Fim da seção de cabeçalho.-->
+    <body><!--Início da seção de corpo do documento.-->
+        <section><!--Início de uma seção no corpo do documento.-->
+            <h1>Avaliação 03 - PCS</h1><!--Cabeçalho de nível 1 que exibe o texto "Avaliação 03 - PCS".-->
+        </section><!--Fim da seção.-->
+        <br><!--quebra de linha.-->
+        <section><!--Início de outra seção.-->
+        <br><!--quebra de linha.-->
+        <form id="formCadastro"><!--Início de um formulário com o atributo "id" definido como "formCadastro".-->
+            Marca:<!--Texto exibido antes do campo de entrada de texto.-->
+            <br><!--quebra de linha.-->
+            <input type="text" id="txtmarca" required><!--Campo de entrada de texto com o atributo "id" definido como "txtmarca" e o atributo "required" indicando que é obrigatório preenchê-lo.-->
+            <br><!--quebra de linha.-->
+            
+			Ano:<!--Texto exibido antes do campo de entrada de número.-->
+            <input type="number" id="txtAno" required><!--Campo de entrada de número com o atributo "id" definido como "txtAno" e o atributo "required" indicando que é obrigatório preenchê-lo.-->
+            <br><!--quebra de linha.-->
+            
+            Modelo<!--Texto exibido antes do campo de entrada de texto.-->
+            <br><!--quebra de linha.-->
+            <input type="text" id="txtModelo"><!--Campo de entrada de texto com o atributo "id" definido como "txtModelo".-->
+            <br><!--quebra de linha.-->
+            Cor:<!--Texto exibido antes do campo de entrada de texto.-->
+            <br><!--quebra de linha.-->
+            <input type="text" id="txtColor" required><!--Campo de entrada de texto com o atributo "id" definido como "txtColor" e o atributo "required" indicando que é obrigatório preenchê-lo. -->
+            <br><!--quebra de linha.-->
+            
+            <button type="submit" onclick="preencheObjeto">Adiciona Carro</button><!--Botão que envia o formulário quando clicado e chama a função "preencheObjeto". -->
+        <br><!--quebra de linha.-->
+        </section><!--fim da seção. -->
+        <br><!--quebra de linha.-->
+        <section class="sectionTwo"><!-- inicio de outra seção "class="sectionTwo" "-->
+            <br><!--quebra de linha.-->
+            <button onclick="mostrarCarro()">Mostrar Todos</button><!--Botão que envia o formulário quando clicado e chama a função "mostrarCarro". -->
+            <br><!--quebra de linha.-->
+            <label id="lblMostrarCarro">...</label><!--ira dar o resultado do que esta dentro no nome "lblMostrarCarro" -->
+            <br><!--quebra de linha.-->
+        </section><!--fim da seção -->
+    </body><!--Fim da seção de corpo do documento. -->
+<html><!-- Fim do elemento HTML.-->
+
+<!--bom o que daria para melhorar seria em relação a criar mais um botão que limpava e escrevia denovo mais deixava armazenado todos os valores nele digitados
+ai seria bom mudar os estilos dos botões coloca umas animações e colocar outras cores e seia bom deixar ele mais otimizado com mais funcionalidades -->

@@ -1,0 +1,87 @@
+x=2
+2
+y=3
+3
+r=5        A
+5
+console.log(x,y,r)
+-------------------------------------------------------------------------------------------------
+x = prompt("Digite seu numero:"); y= prompt("digite um numero:"); r= prompt("digite um numero:");
+console.log(x + y + r)        B
+ 235
+------------------------------------------------------------------------------------------------
+ x= prompt("Digite seu numero:");
+ x=parseInt(x);
+ y= prompt("digite um numero:");
+ y=parseInt(y);
+ r= prompt("digite um numero:");         C
+ r=parseInt(r);
+soma=x + y + r
+
+Media=soma/3
+
+console.log("A media dos tres numeros informados é:" + Media)
+VM3351:11 A media dos tres numeros informados é:3.3333333333333335
+----------------------------------------------------------------------------------------------------
+f=prompt("informe sua tempera em Fahrenheit")
+
+f=parseInt(f)
+ c=(( F - 32 ) * 5)/9                        D
+
+console.log("Sua temperatura convertida para calsius é:" +c)
+----------------------------------------------------------------------------------------------------
+x=20                                                        
+20
+if(x>100){console.log("O numero é maior que 100")} else {consoe.log("erro")}
+x=120                                                                                 E
+120
+if(x>100){console.log("O numero é maior que 100")} else {consoe.log("erro")}
+  O numero é maior que 100
+ --------------------------------------------------------------------------------------------------
+ Let numero= 7;
+if(numero %2===0){console.log("O numero é par")} else{console.log("O numero será impar")}
+VM5281:2 O numero será impar
+
+let numero= 2;
+if(numero %2===0){console.log("O numero é par")} else{console.log("O numero será impar")}  F
+VM5290:2 O numero é par
+------------------------------------------------------------------------------------------------
+let senha = prompt("digite a senha");
+if(senha===1234){console.log("senha correta")} else{console.log("senha incorreta");}      G
+------------------------------------------------------------------------------------------------
+let idade = prompt("digite a sua idade:");
+if(idade==18){console.log("maior de idade")} else{console.log("menor de idade");}
+VM6274:2 maior de idade
+undefined
+let idade = prompt("digite a sua idade:"); 
+if(idade==18){console.log("maior de idade")} else{console.log("menor de idade");}        H
+VM6278:2 menor de idade
+----------------------------------------------------------------------------------------------------
+x=10
+10
+if(x>=10){console.log("Aprovado")} else{console.log("reprovado")}
+VM7073:1 Aprovado
+
+x=6
+6
+if(x>=7){console.log("Aprovado")} else{console.log("reprovado")}                           I
+VM7099:1 reprovado
+--------------------------------------------------------------------------------------------------------
+let numero = prompt("digite UM NUMERO:"); 
+if(nmero>0)
+{console.log(numero + "numero é positivo")}                                                 J
+else if(numero <0)
+{console.log(numero + "numero é negativo")}
+else{console.log(numero + "numero é igual a zero")}
+--------------------------------------------------------------------------------------------------------------
+let num1 = Number(prompt("digite o primeiro numero:"));
+let num2 = Number(prompt("digite o segundo numero:"));                                           K
+let num3 = Number(prompt("digite o terceiro numero:"));
+
+let maior = num1;
+if(num2> maior)
+{ maior é =  num2;}
+if(num3> maior)
+{ maior é =  num3;}
+console.log("o maior numero é" + maior)
+------------------------------------------------------------------------------------------------------------------

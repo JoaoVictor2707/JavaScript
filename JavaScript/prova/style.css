@@ -1,0 +1,77 @@
+body{/*Define o estilo para o elemento `<body>`, que representa o corpo do documento HTML. */
+    background-color: rgb(233, 225, 216);/*Define a cor de fundo do corpo como um tom de cinza claro. */
+    display: flex;/*Aplica o modelo de layout flex ao elemento, permitindo que os elementos filhos sejam posicionados e redimensionados de forma flexível. */
+    flex-direction: column;/*Define a direção dos elementos filhos como coluna, ou seja, são empilhados verticalmente. */
+    flex-wrap: nowrap;/* Impede que os elementos filhos sejam quebrados em várias linhas.*/
+    align-content: center;/*Centraliza os elementos verticalmente dentro do contêiner flexível. */
+    justify-content: center;/* Centraliza os elementos horizontalmente dentro do contêiner flexível.*/
+    align-items: center;/* Centraliza os itens verticalmente em relação ao eixo transversal.*/
+    font-family:Arial, Helvetica, sans-serif;/* Define a fonte da página */
+}
+
+section{/*Define o estilo para os elementos `<section>`. */
+    
+    display: flex;/*Aplica o modelo de layout flex aos elementos `<section>`. */
+    background-color: rgb(211, 211, 211);/*Define a cor de fundo dos elementos `<section>` como um tom de cinza. */
+    border-radius: 20px;/*Adiciona um raio de borda arredondado de 20 pixels aos elementos `<section>`. */
+    width: 60%;/*Define a largura dos elementos `<section>` como 60% da largura do contêiner pai. */
+    flex-direction: column;/*efine a direção dos elementos filhos como coluna. */
+    flex-wrap: nowrap;/*Impede que os elementos filhos sejam quebrados em várias linhas. */
+    align-content: center;/*Centraliza os elementos verticalmente dentro do contêiner flexível. */
+    justify-content: center;/*Centraliza os elementos horizontalmente dentro do contêiner flexível. */
+    align-items: center;/*Centraliza os itens verticalmente em relação ao eixo transversal. */
+
+}
+
+.section2{/*Define o estilo para elementos com a classe `.section2`. */
+    display: frex;/*Há um erro de digitação, deveria ser `display: flex;` para aplicar o modelo de layout flex. */
+    background-color: rgb(211, 211, 211);/*Define a cor de fundo dos elementos com a classe `.section2` como um tom de cinza. */
+    border-radius: 20px;/*Adiciona um raio de borda arredondado de 20 pixels aos elementos com a classe `.section2` */
+    width: 60%;/* Define a largura dos elementos com a classe `.section2` como 60% da largura do contêiner pai.*/
+    width: 200%;/*Define a largura dos elementos com a classe `.section2` como 200% da largura do contêiner pai. */
+    flex-direction: column;/*Define a direção dos elementos filhos como coluna. */
+    flex-wrap: wrap;/*Essa linha define que os itens dentro de um contêiner flexível podem ser quebrados em várias linhas, se necessário. */
+    align-content: center;/*Isso centraliza verticalmente os itens dentro de um contêiner flexível quando há espaço extra na linha. */
+    justify-content: flex-start;/*Isso alinha os itens dentro de um contêiner flexível ao início do eixo principal (horizontalmente, nesse caso). */
+    align-items: flex-start/* Isso alinha os itens dentro de um contêiner flexível ao início do eixo transversal (verticalmente, nesse caso). */
+}/* */
+
+input{/*Essa parte define um conjunto de estilos para os elementos `<input>`, que são campos de entrada. */
+    background-color: white;/*Define a cor de fundo como branca  */
+    border: 0;/*Remove a borda */
+    border-radius: 12px;/*Define o raio do canto da borda como 12 pixels */
+    padding: 4px;/*Define o espaçamento interno do elemento como 4 pixels */
+    margin: 5px;/* Define a margem externa do elemento como 5 pixels */
+    width: 70%;/*Define a largura do elemento como 70% do contêiner pai */
+    height: 32px;/*Define a altura do elemento como 32 pixels */
+}/* */
+
+button{
+    background-color: rgb(66, 66, 128);/* Define a cor de fundo como um tom de roxo */
+    border-color: white;/*Define a cor da borda como branca */
+    border-radius: 30px;/*Define o raio do canto da borda como 30 pixels */
+    padding: 14px;/*Define o espaçamento interno do elemento como 14 pixels */
+    margin: 13px;/*Define a margem externa do elemento como 13 pixels */
+    color: white;/*Define a cor do texto como branca */
+}/* */
+
+label{
+    padding: 15px; /* Define o espaçamento interno do elemento como 15 pixels */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: rgb(0, 15, 65); /* Define a cor do texto como um tom de azul */
+    color: black; /* Substitui a cor anterior, definindo o texto como preto */
+}
+
+form{
+    padding: 15px; /* Define o espaçamento interno do elemento como 15 pixels */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: rgb(0, 15, 65); /* Define a cor do texto como um tom de azul */
+    font-size: small; /* Define o tamanho da fonte como pequeno */
+    width: 80%; /* Define a largura do elemento como 80% do contêiner pai */
+    display: flex; /* Aplica o modelo de layout flexível ao elemento */
+    flex-direction: column; /* Define a direção do fluxo dos elementos filhos como vertical */
+    flex-wrap: nowrap; /* Define que os elementos filhos não serão quebrados em várias linhas */
+    align-content: space-between; /* Define como o espaço vertical restante é distribuído entre as linhas */
+    justify-content: center; /* Define como os elementos são alinhados ao longo do eixo principal */
+    align-items: center; /* Define como os elementos são alinhados ao longo do eixo transversal */
+}

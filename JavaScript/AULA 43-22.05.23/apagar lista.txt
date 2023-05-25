@@ -1,0 +1,9 @@
+var cl=document.getElementById("cats_list")
+undefined
+var cli = cl.getElementsByTagName("li")
+undefined
+cli
+HTMLCollection(4) [li, li, li, li]
+cli[3]
+<li>​…​</li>​
+cl.removeChild(cli[3])

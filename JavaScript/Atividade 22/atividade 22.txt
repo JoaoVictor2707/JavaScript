@@ -1,0 +1,195 @@
+A)  switch (x) {
+	case 1:
+		console.log("segunda feira");
+		break;
+	case 2:
+		console.log("terça feira");
+		break
+        case 3:
+		console.log("quarta feira");
+		break
+        case 4:
+		console.log("quinta feira");
+		break
+        case 5:
+		console.log("sexta feira");
+		break
+        case 6:
+		console.log("sabádo");
+		break
+        case 7:
+		console.log("Domingo");
+		break
+	default:
+		console.log("Não existe");
+		break;
+	}
+VM1033:15 sexta feira
+x=5
+5
+switch (x) {
+	case 1:
+		console.log("segunda feira");
+		break;
+	case 2:
+		console.log("terça feira");
+		break
+        case 3:
+		console.log("quarta feira");
+		break
+        case 4:
+		console.log("quinta feira");
+		break
+        case 5:
+		console.log("sexta feira");
+		break
+        case 6:
+		console.log("sabádo");
+		break
+        case 7:
+		console.log("Domingo");
+		break
+	default:
+		console.log("Não existe");
+		break;
+	}
+VM1050:15 sexta feira
+-------------------------------------------------------------------------
+
+B)   var codigo=prompt("digite o codigo do produto(a,b,c,d):");
+var nome, preço;
+switch (codigo) {
+  case "A":
+    nome = "Produto A";
+    preco = 10.00;
+    break;
+  case "B":
+    nome = "Produto B";
+    preco = 20.00;
+    break;
+  case "C":
+    nome = "Produto C";
+    preco = 30.00;
+    break;
+  case "D":
+    nome = "Produto D";
+    preco = 40.00;
+    break;
+  default:
+    nome = "Produto desconhecido";
+    preco = 0.00;
+}
+
+
+0
+var codigo=prompt("digite o codigo do produto(a,b,c,d):");
+var nome, preço;
+switch (codigo) {
+  case "A":
+    nome = "Produto A";
+    preco = 10.00;
+    break;
+  case "B":
+    nome = "Produto B";
+    preco = 20.00;
+    break;
+  case "C":
+    nome = "Produto C";
+    preco = 30.00;
+    break;
+  case "D":
+    nome = "Produto D";
+    preco = 40.00;
+    break;
+  default:
+    nome = "Produto desconhecido";
+    preco = 0.00;
+}
+20
+---------------------------------------------------------------------------
+C)  var operacao = prompt("Digite a operação matemática desejada(adição, subtração, multiplicação ou divisão):");
+
+var numero1 = Number(prompt("Digite o primeiro número:"));
+var numero2 = Number(prompt("Digite o segundo número:"));
+
+var resultado;
+switch (operacao) {
+  case "adição":
+    resultado = numero1 + numero2;
+    break;
+  case "subtração":
+    resultado = numero1 - numero2;
+    break;
+  case "multiplicação":
+    resultado = numero1 * numero2;
+    break;
+  case "divisão":
+    resultado = numero1 / numero2;
+    break;
+  default:
+    resultado = NaN;
+    break;
+}
+
+if (isNaN(resultado)) {
+  alert("Operação matemática inválida.");
+} else {
+  alert("O resultado da operação " + operacao + " entre " + numero1 + " e " + numero2 + " é " + resultado + ".");
+}
+---------------------------------------------------------------------------------------------------------------------
+D) var mes=prompt("digite o mes (janeiro, fevereiro, março):");
+var estacao;
+switch (mes) {
+  case "janeiro":
+    estacao = "primavera";
+    break;
+  case "fevereiro":
+    estacao = "verão";
+    break;
+  case "março":
+    estacao = "Outono";
+    break;
+  default:
+    estacao = "mes invalido";
+}
+'primavera'
+-----------------------------------------------------------------------
+E)var cardapio=prompt("digite o numero do cardapio desejado(1,2,3):");
+var batata,hamburguer,coca;
+switch (cardapio) {
+  case "1":
+    batata= "batata";
+    break;
+  case "2":
+    hamburguer = "hamburguer";
+    break;
+  case "3":
+    coca = "coca";
+    break;
+  default:
+    estacao = "numero do cardápio invalido";
+}
+--------------------------------------------------------------------------
+F) et mes = parseInt(prompt("Digite o número do mês (1 a 12): "));
+let ano = nova Data().getFullYear(); 
+
+let diasNoMes;
+
+if (mes == 2) {
+  
+  if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0) {
+    
+     diasNoMes = 29;
+  } else {
+     diasNoMes = 28;
+  }
+} else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
+
+   diasNoMes = 30;
+} else {
+
+   diasNoMes = 31;
+}
+
+console.log(`O mês ${mes} tem ${ diasNoMes} dias.`);
+VM5473:22 O mês 12 tem 31 dias.

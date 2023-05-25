@@ -1,0 +1,29 @@
+x=10
+10  	
+
+y=20
+20      
+
+y>x
+true    A
+
+y<x
+false    B
+
+x>=y
+false    C
+
+x<=y
+true     D
+
+x==y
+false     E
+
+x!=y
+true      F
+
+x===y
+false     G
+
+x!==y
+true 

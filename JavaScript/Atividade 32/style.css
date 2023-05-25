@@ -1,0 +1,35 @@
+body{
+	text-align: center;
+	font-size: 24px;
+	color: #333333;
+	margin-top:20px;
+}
+input[type="text"]{
+	padding: 10px;
+	width: 200px;
+	margin: 10px auto;
+	display:block;
+}
+Button {
+	padding: 10px 20px;
+	blackgroud-color:#007bff;
+	color:#ffffff
+	border:none;
+	border-ridius:4px;
+	cursor: pointer;
+	display:block;
+	margin: 0 auto;
+}
+ul{
+	list-style-type: none;
+	padding:0;
+	margin: 20px auto;
+	width:300px
+}
+li {
+	padding:10px;
+	blackgroud-color:#f2f2f2;
+	border-ridius: 4px;
+	margin-bottom:10px;
+	color:#333333
+}

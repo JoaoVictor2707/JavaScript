@@ -1,0 +1,107 @@
+A) for( i=0; i<=20; i+=2){
+    console.log(i)}
+VM449:2 0
+VM449:2 2
+VM449:2 4
+VM449:2 6
+VM449:2 8
+VM449:2 10
+VM449:2 12
+VM449:2 14
+VM449:2 16
+VM449:2 18
+VM449:2 20
+--------------------------------------
+B)  num=prompt("informe um numero positivo inteiro:");
+num=perseInt(num);
+x=1
+while(x < num){
+    if(x % 2 !==0){
+        console.log(x);}
+    x++
+}
+-------------------------------------------------------
+C)  for(let i=1; i<=100; i++){
+    console.log(i)}
+-------------------------------------------------------
+D) const numero = parseInt(prompt("Digite um número:"));
+
+
+function verificarPrimo(num) {
+
+  if (num < 2) {
+    return false;
+  }
+
+  if (num === 2) {
+    return true;
+  }
+
+  if (num % 2 === 0) {
+    return false;
+  }
+ 
+  for ( i = 3; i <= Math.sqrt(num); i += 2) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+
+for ( i = 2; i < numero; i++) {
+  if (verificarPrimo(i)) {
+    console.log(i);
+  }
+}
+VM2477:31 2
+VM2477:31 3
+VM2477:31 5
+VM2477:31 7
+-------------------------------------------------------
+E)  for (let i = 1; i <= 10; i++) {
+   resultado = 7 * i;
+  console.log("7 x " + i + " = " + resultado);
+}
+
+VM82:3 7 x 1 = 7
+VM82:3 7 x 2 = 14
+VM82:3 7 x 3 = 21
+VM82:3 7 x 4 = 28
+VM82:3 7 x 5 = 35
+VM82:3 7 x 6 = 42
+VM82:3 7 x 7 = 49
+VM82:3 7 x 8 = 56
+VM82:3 7 x 9 = 63
+VM82:3 7 x 10 = 70
+---------------------------------------------------------
+F)   numero = parseInt(prompt("Digite um número:"));
+
+console.log("Divisores de " + numero + ":");
+
+for (let i = 1; i <= numero; i++) {
+  if (numero % i === 0) {
+    console.log(i);
+  }
+}
+--------------------------------------------------------------
+G)   num = parseInt(prompt("Digite um número:"));
+ a = 0, b = 1;
+
+while (a <= num) {
+  console.log(a);
+  let c = a + b;
+  a = b;
+  b = c;
+}
+
+VM34:5 0
+2VM34:5 1
+VM34:5 2
+VM34:5 3
+VM34:5 5
+VM34:5 8
+21
+------------------------------------------------------------

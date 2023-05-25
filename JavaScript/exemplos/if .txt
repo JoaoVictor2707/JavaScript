@@ -1,0 +1,9 @@
+form_ok=true
+true
+if(form_ok)console.log("dados enviados!")
+  dados enviados!
+
+form_ok=false
+false
+if(form_ok)console.log("dados enviados!")
+undefined
